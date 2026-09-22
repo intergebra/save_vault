@@ -21,8 +21,7 @@ network, encrypted end-to-end with a 256-bit key that only your two machines kno
 pip install -r requirements.txt
 ```
 
-Requires Python 3.10+ (for the `X | None` type hint in `app/gui.py`; drop that hint if you
-need to support older Python).
+Requires Python 3.10+ .
 
 ## Setup (do this once, on both computers)
 
