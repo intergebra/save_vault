@@ -70,16 +70,3 @@ Backups arrive on Computer B as timestamped zip files:
   you personally control on a trusted network or VPN, not for public internet exposure
   without additional protection (e.g. a VPN or firewall rules restricting who can reach
   the receiver's port).
-
-## Project layout
-
-```
-main.py                 entry point
-app/
-  gui.py                the CustomTkinter interface
-  network.py             framed AES-GCM protocol, sender + threaded receiver
-  crypto_utils.py         AES-256-GCM helpers, key generation
-  scheduler.py            background thread for automatic backups
-  config.py                JSON config load/save (~/.gamebackup/config.json)
-  theme.py                   Steam-inspired color palette
-```
