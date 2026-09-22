@@ -38,7 +38,7 @@ Requires Python 3.10+ .
 3. Click **Start Receiver**. Leave the app running (or set your OS to launch it at login)
    to keep receiving backups.
 4. Note Computer B's local IP (e.g. `192.168.1.42`) — you'll need it on Computer A. If
-   backing up over the internet rather than a LAN, use a VPN like Tailscale/WireGuard, or
+   backing up over the internet rather than a LAN, use a VPN like Tailscale/WireGuard/RadminVPN, or
    forward the chosen port on your router.
 
 ## Configure a game (Computer A)
